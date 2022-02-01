@@ -13,11 +13,67 @@
   
 }
 .nav {
+ /* overflow: hidden;  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s; */
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color:  white; 
   padding: 20px;
   justify-content: space-evenly;
 }
+
+.icon {
+  float: right; 
+  
+
+}
+
+
+
+
+.dropbtn {
+  background-color: white;
+  color: #868686;
+  padding: 30px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color:  white; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  white; 
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #868686;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: none;}
+
+
 
 
 .topnav-right {
@@ -33,7 +89,7 @@
 
   .card {
     display: inline-block;
-    background-color: #ffffff;
+    background-color:  white; 
     border-radius: 5px;
     height: 15px;
     width: 100px;
@@ -41,9 +97,11 @@
     margin-top: 10;
    
   }
+
+  
   .search {
    align-items: flex-end;
-    background-color: #ffffff;
+    background-color:  white; 
     border-radius: 5px;
     height: 32px;
     width: 32px;
@@ -54,6 +112,8 @@
             top: 0px;
    
   }
+
+
 
   ul.demo {
     float: right;
@@ -135,7 +195,7 @@
      text-transform: uppercase;
      transition: 0.5s;
      background-size: 300% auto;
-     color: white;            
+     color:  white;             
      box-shadow: 0 5px 10px #600373;
      border-radius: 15px;
      display: block;
@@ -145,11 +205,13 @@
 
    .hero-text button:hover {
      background-position: right center; /* change the direction of the change here */
-     color: #fff;
+     color:  white; 
      text-decoration: none;
    }
 
  /* Brand Designer */
+
+ 
 
  .laptop1 {
 
@@ -161,6 +223,7 @@
   float: left;
   width: 990px;
   height: auto;
+  
 }
 
 .brand-text {
@@ -168,6 +231,43 @@
   float: right;
   margin-top: 130px;
   text-align: left;
+
+}
+
+
+.header_text {
+  
+position: absolute;
+width: 453px;
+height: 117px;
+left: 830px;
+top: 656px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+
+.content_text {
+  position: absolute;
+  width: 445px;
+  height: 173px;
+  left: 830px;
+  top: 787px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  
+  color: #6C6C6C;
 
 }
 
@@ -192,6 +292,81 @@
      text-decoration: none;
    }
 
+   /* About Me */
+   
+   .bg_box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+   }
+
+   .box {
+    
+    background-color:  white; 
+    width: 350px;
+    box-shadow: 0 5px 10px #896491;
+     border-radius: 20px;
+    padding: 50px;
+    margin: 20px;
+  }
+  
+  /* What I Do */
+.laptop2{
+  
+  justify-content: flex-end;
+  align-items: baseline;
+  display: flex;
+}
+
+.Laptop2img {
+  margin-bottom: 130px;
+  padding-right:250px;
+}
+
+.do-text{
+  
+  position: absolute;
+  text-align: left;
+  margin-top: 150px;
+  width: 475px;
+  height: 322px;
+  left: 163px;
+  top: 1603px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  
+  color: #6C6C6C;
+  padding-left: 100px;
+  margin-top: 200px;
+ 
+ 
+
+}
+
+.do-text button {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.do-text button{
+    
+     padding: 25px 55px;
+     text-align: left;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 300% auto;
+     color: white;            
+     box-shadow: 0 5px 10px #896491;
+     border-radius: 15px;
+     display: block;
+    border: none;
+   }
+
+   .do-text button:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: white;
+     text-decoration: none;
+   }
 
 
   /* Footer Styles */
