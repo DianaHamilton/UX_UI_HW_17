@@ -8,7 +8,6 @@
 .logo {
   float: left; 
   height: 50px;
-
   width: 50px;
   
 }
@@ -24,7 +23,7 @@
 
   display: flex;
   background-color:  white; 
-  padding: 20px;
+  padding: 15px;
   justify-content: space-evenly;
 }
 
@@ -168,7 +167,7 @@
     position: relative;
       top: 0;
       left: 0;
-    margin-bottom: 400px;
+    
   }
 
   .hero-text {
@@ -211,32 +210,31 @@
 
  /* Brand Designer */
 
- 
+ .adjustment{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: none;
+    margin: none;
+    padding: none;
+    padding-right: 50px;
+ }
 
- .laptop1 {
 
-  position: absolute;
-  top: 780px;
-  left: 80px; 
-}
 .laptop-img {
   float: left;
-  width: 990px;
-  height: auto;
-  
+  margin-right: 50px;
 }
 
 .brand-text {
   width: 420px;
   float: right;
-  margin-top: 130px;
+  margin-top: 100px;
   text-align: left;
-
 }
 
 
-.header_text {
-  
+.header_text { 
 position: absolute;
 width: 453px;
 height: 117px;
@@ -311,42 +309,23 @@ color: #000000;
   }
   
   /* What I Do */
-.laptop2{
-  
-  justify-content: flex-end;
-  align-items: baseline;
-  display: flex;
-}
+  .adjustment2{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: none;
+    margin: none;
+    padding: 15px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  .laptop-img2 {
+    float: right;
+    margin-right: 50px;
+  }
 
-.Laptop2img {
-  margin-bottom: 130px;
-  padding-right:250px;
-}
 
-.do-text{
-  
-  position: absolute;
-  text-align: left;
-  margin-top: 150px;
-  width: 475px;
-  height: 322px;
-  left: 163px;
-  top: 1603px;
-  
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  
-  color: #6C6C6C;
-  padding-left: 100px;
-  margin-top: 200px;
- 
- 
-
-}
-
+/* Button */
 .do-text button {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
 .do-text button{
     
